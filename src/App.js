@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+
+import Header from './layout/Header';
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <>
+      <Header title="Semana OmniStack" />
+      <Header>Semana OmniStack</Header>
+    </>
   );
 }
 
